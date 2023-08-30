@@ -1,0 +1,128 @@
+body {
+  background-color: #E6E6E6;
+}
+body {
+  background-image: linear-gradient(to bottom right, #FF5733, #5A348D, #1B9CFC);
+}
+
+.App {
+  background-image: linear-gradient(to bottom right, #FF0000, #0000FF);
+  max-width: 800px;
+  margin: 0 auto;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.inputs {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.inp {
+  margin-right: 10px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  font-size: 16px;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.btnAdd {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.edit_inp_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.edit_inp {
+  margin-right: 10px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  font-size: 16px;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.save_btn {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cards_container {
+  display: flex;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  height: 220px;
+  width: 220px;
+}
+
+.card_desc {
+  display: flex;
+  align-items: center;
+}
+
+.card_btns {
+  margin-top: auto;
+}
+
+.card_img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.edit_btn {
+  background-color: #ffc107;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.delete_btn {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
